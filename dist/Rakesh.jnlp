@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Rakesh.jnlp">
+  <information>
+    <title>Rakesh</title>
+    <vendor>5110</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Rakesh.jar" size="1313841" download="eager" />
+    <jar href="lib\controlsfx-8.40.10.jar" size="954085" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Rakesh" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="rakesh.Rakesh"  name="Rakesh" />
+  <update check="always"/>
+</jnlp>
